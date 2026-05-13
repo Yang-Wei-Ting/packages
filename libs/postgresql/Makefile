@@ -6,9 +6,11 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=postgresql
 PKG_VERSION:=18.3
-PKG_RELEASE:=1
+PKG_RELEASE:=2
+
 PKG_MAINTAINER:=Daniel Golle <daniel@makrotopia.org>
 PKG_LICENSE:=PostgreSQL
+PKG_LICENSE_FILES:=COPYRIGHT
 PKG_CPE_ID:=cpe:/a:postgresql:postgresql
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2

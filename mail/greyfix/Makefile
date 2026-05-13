@@ -9,14 +9,14 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=greyfix
 PKG_VERSION:=0.4.0
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE_URL:=https://www.kim-minh.com/pub/greyfix
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_HASH:=26013edce3a38d586282bfc22eb91bd22df54e3558ea1b3dae54d3e7a769e4fe
 
 MAINTAINER:=Lucian Cristian <lucian.cristian@gmail.com>
-PKG_LICENSE:=GPLv2
+PKG_LICENSE:=GPL-2.0
 
 PKG_BUILD_PARALLEL:=1
 

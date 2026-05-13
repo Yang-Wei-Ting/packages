@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mikrotik_btest
 PKG_VERSION:=0.5.1
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/kadosch/mikrotik_btest.git
@@ -18,7 +18,7 @@ PKG_SOURCE_VERSION:=02a0e7df411b5e7775fe2795709996a30afb7f47
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_MIRROR_HASH:=f72e1c8e2d98ca9e1c6a7fba35838a4a3c25b2dcd4bd8b10b67662003b3a14d1
 
-PKG_LICENSE:=GPLv3
+PKG_LICENSE:=GPL-3.0
 PKG_LICENSE_FILES:=COPYING
 
 include $(INCLUDE_DIR)/package.mk
